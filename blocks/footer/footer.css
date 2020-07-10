@@ -1,0 +1,9 @@
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    padding: 92px 3.75% 24px 3.75%;
+    display: flex;
+    justify-content: space-between;
+}

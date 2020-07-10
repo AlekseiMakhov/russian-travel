@@ -1,0 +1,13 @@
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-link/_lang_rus/header__lang-link_lang_eng.css);
+@import url(./__links/header__links.css);
+@import url(./__logo/header__logo.css);
+
+.header {
+    display: flex;
+    position: relative;
+    margin: 28px 48px 0;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
