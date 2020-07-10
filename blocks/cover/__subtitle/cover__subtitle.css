@@ -7,7 +7,7 @@
     max-width: 360px;
     z-index: 2;
     position: absolute;
-    top: calc(62.5% - 33px);
+    top: calc(43% + 105px);
     left: calc(50% - 180px);
     color: white;
 }
