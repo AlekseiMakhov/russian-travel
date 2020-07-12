@@ -10,6 +10,6 @@
     .place__website {
         visibility: hidden;
         grid-row: 4;
-        font-size: 0;
+        height: 0;
     }
 }
