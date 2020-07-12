@@ -1,14 +1,14 @@
 .places {
     display: grid;
     padding: 92px 148px;
-    grid-gap: 80px;
+    gap: 80px;
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1024px) {
 
     .places {
         padding: 92px 48px;
-        grid-gap: 80px;
+        gap: 80px;
     }
 }
 
@@ -16,7 +16,7 @@
 
     .places {
         padding: 88px 24px;
-        grid-gap: 72px;
+        gap: 72px;
     }
 }
 
@@ -24,6 +24,6 @@
 
     .places {
         padding: 64px 0;
-        grid-gap: 16px;
+        gap: 16px;
     }
 }
