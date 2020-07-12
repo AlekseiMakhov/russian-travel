@@ -4,5 +4,28 @@
 
 .intro {
     padding-top: 92px;
-    padding-left: calc(23%/2);
+    padding-left: 148px;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+
+    .intro {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

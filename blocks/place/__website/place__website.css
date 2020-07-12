@@ -1,11 +1,20 @@
 .place__website {
     font-size: 18px;
     font-weight: normal;
-    line-height: 1.2;
+    line-height: 1.22;
     color: white;
     align-self: end;
 }
 
 .place__website:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+
+    .place__website {
+        visibility: hidden;
+        grid-row: 4;
+        font-size: 0;
+    }
 }
