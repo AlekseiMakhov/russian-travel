@@ -1,4 +1,4 @@
 .cover__background {
     object-fit: fill;
-    width: 100%;
+    max-width: 100%;
 }
